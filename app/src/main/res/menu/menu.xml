@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/lista_Elementos"
+        android:title="Lista de Elementos"
+        android:icon="@drawable/ic_lista_elementos"/>
+    <item android:id="@id/favorito"
+        android:title="Favorito"
+        android:icon="@drawable/ic_favorito"/>
+    <item android:id="@id/info2"
+        android:title="Info"
+        android:icon="@drawable/ic_informacion"/>
+
+</menu>

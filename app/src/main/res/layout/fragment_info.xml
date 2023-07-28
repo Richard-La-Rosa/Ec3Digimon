@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragmentos.Info">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+
+        android:text="Digimon Carts"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        />
+    <TextView
+
+
+        android:text="Hola Profesor, le presento mi proyecto De Digimon TCG, trata de ventas de cartas, donde encontraras el nombre, precio, proveedor y cantidad"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="148dp"
+        />
+    <TextView
+
+
+        android:text="Richard La Rosa"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        />
+
+</FrameLayout>

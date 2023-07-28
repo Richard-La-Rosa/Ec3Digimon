@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/digimon_graph"
+    app:startDestination="@id/lista_Elementos">
+
+    <fragment
+        android:id="@+id/lista_Elementos"
+        android:name="com.example.digimonec3.UI.fragmentos.Lista_Elementos"
+        android:label="fragment_lista__elementos"
+        tools:layout="@layout/fragment_lista__elementos" />
+    <fragment
+        android:id="@+id/favorito"
+        android:name="com.example.digimonec3.UI.fragmentos.Favorito"
+        android:label="fragment_favorito"
+        tools:layout="@layout/fragment_favorito" />
+    <fragment
+        android:id="@+id/info2"
+        android:name="com.example.digimonec3.UI.fragmentos.Info"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
